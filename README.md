@@ -4,7 +4,7 @@
 Скачиваем скрипт 
 
 ```
-wget https://raw.githubusercontent.com/unixhostpro/shadowsocks-simple-install/master/shadowsocks-simple-install.sh
+wget https://raw.githubusercontent.com/Rick-Pr/shadowsocks-simple-install/master/shadowsocks-simple-install.sh
 ```
 
 Устанавливаем права на запуск
