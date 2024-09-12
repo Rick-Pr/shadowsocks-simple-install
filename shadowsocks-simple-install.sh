@@ -91,7 +91,7 @@ fi
 mkdir -p /etc/shadowsocks-libev # ceate config directory
 if [ "$V2RAY" == "v2ray" ]; then
 	wget https://github.com/shadowsocks/v2ray-plugin/releases/download/v1.3.2/v2ray-plugin-linux-amd64-v1.3.2.tar.gz
-	tar -xf v2ray-plugin-linux-amd64-v1.3.1.tar.gz
+	tar -xf v2ray-plugin-linux-amd64-v1.3.2.tar.gz
 	sudo mv v2ray-plugin_linux_amd64 /etc/shadowsocks-libev/v2ray-plugin
 	sudo chmod +x  /etc/shadowsocks-libev/v2ray-plugin
 	sudo setcap 'cap_net_bind_service=+ep' /etc/shadowsocks-libev/v2ray-plugin
